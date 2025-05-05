@@ -1,4 +1,4 @@
-![[/img/Pasted image 20250505195944.png]]
+![[Imgs/Pasted image 20250505195944.png]]
 
 **Guarchdian** es un sistema de bastionado y monitoreo de Arch Linux orientado a entornos domésticos . Está diseñado para fortalecer la seguridad del sistema mediante herramientas como `iptables`, `fail2ban`, `knockd`, y `Suricata`, además de facilitar la visualización de eventos a través de una interfaz basada en ELK Stack. Su objetivo es ofrecer una solución ligera, modular y de bajo mantenimiento para proteger redes pequeñas sin requerir hardware especializado ni conocimientos avanzados en ciberseguridad.
 
