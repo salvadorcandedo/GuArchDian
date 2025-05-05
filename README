@@ -1,0 +1,30 @@
+🛡️ ArchGuardian 
+
+Dotfiles and automation scripts for a hardened Arch Linux installation with full disk encryption (LUKS), secure SSH, kernel hardening, virtualization support (KVM), and advanced monitoring tools like auditd, suricata, lynis, and more. 
+✅ Features 
+
+    🔐 Full Disk Encryption : LVM on LUKS with encrypted /boot partition.
+    🔒 Secure SSH : Public key + U2F (Flipper Zero) authentication, port knocking.
+    🧱 Kernel Hardening : Custom sysctl rules for enhanced security.
+    🕵️‍♂️ Monitoring & Detection :
+        File integrity checks with aura.
+        System auditing via auditd.
+        Kernel Hardening.
+        SSH Hardening
+         
+    📊 Security Auditing : Lynis-based hardening reports.
+    🧰 Additional Security :
+        AppArmor profiles.
+        Fail2Ban integration.
+        Compilers restricted to root.
+        PAM-based login restrictions and notifications.
+         
+Installation Summary 
+
+This scipt includes: 
+
+    Bootloader : GRUB with password protection and LUKS support.
+    Disk Encryption : AES-XTS with SHA512 hash and PBKDF2.
+    Partitioning : GPT scheme with separate /boot and LUKS-encrypted root (/).
+    System Integrity : Verified through auditd, aide, and hashdeep.
+     
