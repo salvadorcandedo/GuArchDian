@@ -1,6 +1,6 @@
 # SSH Hardening Script
 
-Este script automatiza el endurecimiento de la configuración de SSH (`sshd_config` y `ssh_config`) para mejorar la seguridad del servidor Linux. Elimina claves antiguas, genera nuevas claves seguras, configura parámetros estrictos y establece controles de acceso recomendados para entornos de producción.
+Este script automatiza la configuración de SSH (`sshd_config` y `ssh_config`) para mejorar la seguridad del servidor Arch. Elimina claves antiguas, genera nuevas claves seguras, configura parámetros estrictos y establece controles de acceso recomendados por lynis.
 
 ## Características del script
 
