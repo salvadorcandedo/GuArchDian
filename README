@@ -4,7 +4,7 @@ Dotfiles and automation scripts for a hardened Arch Linux installation with full
 ✅ Features 
 
     🔐 Full Disk Encryption : LVM on LUKS with encrypted /boot partition.
-    🔒 Secure SSH : Public key + U2F (Flipper Zero) authentication, port knocking.
+    🔒 Secure SSH : Public key authentication, port knocking.
     🧱 Kernel Hardening : Custom sysctl rules for enhanced security.
     🕵️‍♂️ Monitoring & Detection :
         File integrity checks with aura.
